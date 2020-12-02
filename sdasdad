@@ -1,0 +1,23 @@
+{
+    "preset": ["@babel/preset-env"]
+}
+
+
+
+
+{
+    "extends": ["airbnb-base"],
+    "env": {
+        "jest":true,
+        "node":true
+    },
+    "rule": {
+        "max-len": [
+            1, 
+            120, {
+                "tabWidth": 2, 
+                "ignoreComments": true
+            }
+        ]
+    }
+}
